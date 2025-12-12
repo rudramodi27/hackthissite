@@ -19,10 +19,6 @@ After researching SSI injection, I tested common characters like <, >, and #. Wh
 I then tried SSI commands.
 <!--#exec cmd="ls -lsa" --> didn’t fully work, but it indicated I was close.
 
-However:
-```
-<!--#exec cmd="ls" --> successfully listed several .shtml files.
-```
 - The output showed I was inside the /tmp/ directory, not /missions/basic/8/.
 
 So I moved one directory up:
