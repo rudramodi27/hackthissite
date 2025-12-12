@@ -14,4 +14,4 @@ Please enter a password to gain access to level 10
 ```
 javascript:alert(document.cookie="level10_authorized=yes")
 ```
-After updating the cookie, submitting the form immediately granted access without needing a password. This shows how insecure client‑side authentication can be.
+- After updating the cookie, submitting the form immediately granted access without needing a password. This shows how insecure client‑side authentication can be.
