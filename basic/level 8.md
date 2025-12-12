@@ -17,8 +17,9 @@ Like Mission 7, this challenge also gives two hints:
 After researching SSI injection, I tested common characters like <, >, and #. When I entered <>, the page incorrectly reported the name length, which confirmed that the input was being interpreted by the server.
 
 I then tried SSI commands.
+```
 <!--#exec cmd="ls -lsa" --> didn’t fully work, but it indicated I was close.
-
+```
 - The output showed I was inside the /tmp/ directory, not /missions/basic/8/.
 
 So I moved one directory up:
